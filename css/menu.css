@@ -1,0 +1,38 @@
+.menu{
+    display: flex;
+    margin: 0.7rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__header{
+    display: flex;
+    align-items: center;
+}
+
+.menu__title{
+    display: flex;
+    margin-left: 10px;
+    color: #464646;
+    font-family: 'Raleway';
+}
+
+.menu__list{
+    display: flex;
+}
+
+.menu__list__item{
+    display: flex;
+}
+
+.menu__list__item__contacto{
+    display: flex;
+    font-family: 'Raleway';
+    color: #464646;
+}
+
+@media screen and (max-width:768px) {
+    .menu__list{
+        display: none;
+    }
+}
